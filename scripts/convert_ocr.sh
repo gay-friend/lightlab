@@ -1,0 +1,3 @@
+paddle2onnx -m tmp/ch_PP-OCRv4_det_infer --model_filename inference.pdmodel --params_filename inference.pdiparams -s ppocrv4_det.onnx --opset_version 17
+paddle2onnx -m tmp/ch_PP-OCRv4_rec_infer --model_filename inference.pdmodel --params_filename inference.pdiparams -s ppocrv4_rec.onnx --opset_version 17
+paddle2onnx -m tmp/ch_ppocr_mobile_v2.0_cls_infer --model_filename inference.pdmodel --params_filename inference.pdiparams -s ppocrv2_cls.onnx --opset_version 17
